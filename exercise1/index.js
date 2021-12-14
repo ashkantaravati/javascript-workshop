@@ -1,7 +1,5 @@
-function evenNumber(array) {
+const evenNumber = (array)=> array.filter(number=> number%2 ===0)
 
- return array.filter(number=> number%2 ===0)
-}
 
 const data = [2, 9, 3, 10, 5, 4]
 
